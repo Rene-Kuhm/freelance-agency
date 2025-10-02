@@ -1,4 +1,4 @@
-# DevCode Pro - Freelance Web Development Agency Website
+# Tecnodespegue - Freelance Web Development Agency Website
 
 A modern, professional website for a freelance web development and programming agency built with Next.js 14+, TypeScript, Tailwind CSS, and shadcn/ui components.
 
@@ -154,7 +154,7 @@ npm start
 Edit `app/globals.css` to customize the color scheme. The project uses CSS variables with oklch color space for better color consistency.
 
 ### Content
-- **Company Name**: Search and replace "DevCode Pro" throughout the codebase
+- **Company Name**: Tecnodespegue
 - **Contact Info**: Update email, phone, and location in `components/Contact.tsx` and `components/Footer.tsx`
 - **Services**: Modify the services array in `components/Services.tsx`
 - **Projects**: Update the projects array in `components/Projects.tsx` with your actual projects
@@ -214,8 +214,8 @@ This project is open source and available under the MIT License.
 
 ## Support
 
-For questions or support, contact: contacto@devcodepro.com
+For questions or support, contact: contacto@tecnodespegue.com
 
 ---
 
-Built with ❤️ using Next.js, TypeScript, and Tailwind CSS
+Built with ❤️ by Tecnodespegue using Next.js, TypeScript, and Tailwind CSS
