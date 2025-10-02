@@ -102,6 +102,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es" suppressHydrationWarning>
+      <head>
+        <meta name="description" content="⭐ Agencia freelance #1 en desarrollo web y programación. Creamos aplicaciones web modernas, software a medida y soluciones digitales que impulsan tu negocio. React, Next.js, Node.js. Presupuesto gratis." />
+        <link rel="preconnect" href="https://images.unsplash.com" />
+        <link rel="dns-prefetch" href="https://images.unsplash.com" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

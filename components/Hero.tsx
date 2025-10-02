@@ -38,7 +38,7 @@ export default function Hero() {
 
           {/* Main heading */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-150 leading-tight">
-            Transformo <span className="bg-gradient-to-r from-primary via-purple-500 to-pink-500 bg-clip-text text-transparent">Ideas</span> en{" "}
+            Tecnodespegue: Transformo <span className="bg-gradient-to-r from-primary via-purple-500 to-pink-500 bg-clip-text text-transparent">Ideas</span> en{" "}
             <span className="bg-gradient-to-r from-pink-500 via-purple-500 to-primary bg-clip-text text-transparent">Soluciones Digitales</span>
           </h1>
 
