@@ -22,10 +22,8 @@ const nextConfig: NextConfig = {
   // Enable React strict mode for better practices
   reactStrictMode: true,
   // Optimizations
-  swcMinify: true,
   experimental: {
     optimizePackageImports: ['lucide-react', '@radix-ui/react-icons'],
-    optimizeCss: true,
   },
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production',
