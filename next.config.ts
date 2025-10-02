@@ -14,8 +14,14 @@ const nextConfig: NextConfig = {
   },
   // Optimize production build
   compress: true,
+  poweredByHeader: false,
   // Enable React strict mode for better practices
   reactStrictMode: true,
+  // Optimizations
+  swcMinify: true,
+  experimental: {
+    optimizePackageImports: ['lucide-react', '@radix-ui/react-icons'],
+  },
   // Security headers
   headers: async () => [
     {
