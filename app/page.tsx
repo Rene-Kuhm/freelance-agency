@@ -1,11 +1,14 @@
+import dynamic from 'next/dynamic';
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
-import Services from "@/components/Services";
-import Promotions from "@/components/Promotions";
-import Projects from "@/components/Projects";
-import About from "@/components/About";
-import Contact from "@/components/Contact";
+
+// Lazy load non-critical components
+const Services = dynamic(() => import("@/components/Services"), { ssr: true });
+const Promotions = dynamic(() => import("@/components/Promotions"), { ssr: true });
+const Projects = dynamic(() => import("@/components/Projects"), { ssr: true });
+const About = dynamic(() => import("@/components/About"), { ssr: true });
+const Contact = dynamic(() => import("@/components/Contact"), { ssr: true });
 
 export default function Home() {
   // Structured Data for SEO (JSON-LD)

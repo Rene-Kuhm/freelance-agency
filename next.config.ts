@@ -21,6 +21,10 @@ const nextConfig: NextConfig = {
   swcMinify: true,
   experimental: {
     optimizePackageImports: ['lucide-react', '@radix-ui/react-icons'],
+    optimizeCss: true,
+  },
+  compiler: {
+    removeConsole: process.env.NODE_ENV === 'production',
   },
   // Security headers
   headers: async () => [
