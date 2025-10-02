@@ -1,0 +1,18 @@
+# Robots.txt for Tecnodespegue
+# https://tecnodespegue.com/robots.txt
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# Sitemaps
+Sitemap: https://tecnodespegue.com/sitemap.xml
+
+# Crawl-delay for specific bots
+User-agent: Googlebot
+Crawl-delay: 0
+
+User-agent: Bingbot
+Crawl-delay: 0

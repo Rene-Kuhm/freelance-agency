@@ -1,103 +1,111 @@
-import Image from "next/image";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import Hero from "@/components/Hero";
+import Services from "@/components/Services";
+import Promotions from "@/components/Promotions";
+import Projects from "@/components/Projects";
+import About from "@/components/About";
+import Contact from "@/components/Contact";
 
 export default function Home() {
-  return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+  // Structured Data for SEO (JSON-LD)
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Tecnodespegue",
+    "image": "https://tecnodespegue.com/og-image.jpg",
+    "@id": "https://tecnodespegue.com",
+    "url": "https://tecnodespegue.com",
+    "telephone": "+34123456789",
+    "email": "contacto@tecnodespegue.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Madrid",
+      "addressCountry": "ES"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.4168,
+      "longitude": -3.7038
+    },
+    "sameAs": [
+      "https://github.com/tecnodespegue",
+      "https://linkedin.com/company/tecnodespegue",
+      "https://twitter.com/tecnodespegue"
+    ],
+    "priceRange": "$$",
+    "description": "Agencia freelance de desarrollo web y programación. Creamos soluciones digitales modernas, aplicaciones web personalizadas y software a medida.",
+    "knowsAbout": [
+      "Desarrollo Web",
+      "React",
+      "Next.js",
+      "Node.js",
+      "TypeScript",
+      "Programación",
+      "Diseño Web",
+      "SEO"
+    ],
+    "areaServed": {
+      "@type": "Country",
+      "name": "España"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "reviewCount": "30"
+    }
+  };
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
+  const webPageData = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Tecnodespegue - Desarrollo Web y Programación Freelance",
+    "description": "Agencia freelance de desarrollo web y programación. Creamos aplicaciones web modernas, software a medida y soluciones digitales.",
+    "url": "https://tecnodespegue.com",
+    "inLanguage": "es-ES"
+  };
+
+  const organizationData = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Tecnodespegue",
+    "url": "https://tecnodespegue.com",
+    "logo": "https://tecnodespegue.com/logo.png",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+34123456789",
+      "contactType": "customer service",
+      "email": "contacto@tecnodespegue.com",
+      "availableLanguage": ["Spanish", "English"]
+    }
+  };
+
+  return (
+    <>
+      {/* Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageData) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationData) }}
+      />
+
+      <main className="min-h-screen">
+        <Header />
+        <Hero />
+        <Services />
+        <Promotions />
+        <Projects />
+        <About />
+        <Contact />
+        <Footer />
       </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+    </>
   );
 }

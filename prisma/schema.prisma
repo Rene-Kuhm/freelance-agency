@@ -1,0 +1,66 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  password  String   // bcrypt hashed
+  name      String
+  role      String   @default("admin")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("users")
+}
+
+model Promotion {
+  id          String   @id @default(cuid())
+  title       String
+  description String
+  badge       String
+  image       String
+  active      Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@map("promotions")
+}
+
+model Content {
+  id          String   @id @default(cuid())
+  type        String   // 'service' | 'project' | 'testimonial'
+  title       String
+  description String
+  image       String?
+  data        Json     // Additional flexible data
+  active      Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@map("content")
+}
+
+model SecurityLog {
+  id        String   @id @default(cuid())
+  event     String   // 'login_success', 'login_failed', 'rate_limit', etc.
+  email     String?
+  ipAddress String?
+  userAgent String?
+  metadata  Json?
+  createdAt DateTime @default(now())
+
+  @@index([email])
+  @@index([event])
+  @@index([createdAt])
+  @@map("security_logs")
+}
