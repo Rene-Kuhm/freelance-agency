@@ -1,221 +1,286 @@
-# Tecnodespegue - Freelance Web Development Agency Website
+<div align="center">
 
-A modern, professional website for a freelance web development and programming agency built with Next.js 14+, TypeScript, Tailwind CSS, and shadcn/ui components.
+# 🚀 Tecnodespegue
 
-## Features
+### Professional Freelance Web Development Agency
 
-- **Modern Tech Stack**: Built with Next.js 14+ App Router, TypeScript, and Tailwind CSS
-- **Responsive Design**: Fully responsive across mobile, tablet, and desktop devices
-- **Professional UI**: Clean, modern design using shadcn/ui component library
-- **SEO Optimized**: Proper metadata and semantic HTML for search engine optimization
-- **Smooth Animations**: Engaging transitions and hover effects throughout
-- **Contact Form**: Functional contact form using Next.js Server Actions
-- **Spanish Language**: All content in Spanish for Spanish-speaking clients
+*Soluciones web modernas y personalizadas para tu negocio*
 
-## Sections
+[![Next.js](https://img.shields.io/badge/Next.js-15.5.4-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19-61dafb?style=for-the-badge&logo=react)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178c6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-v4-38bdf8?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
 
-### 1. Hero Section
-- Eye-catching hero with animated background
-- Call-to-action buttons
-- Key statistics (50+ projects, 100% satisfaction, 5+ years)
-- Professional badge and tagline
+[🌐 Ver Sitio](https://tecnodespegue.com) · [📧 Contacto](mailto:contacto@tecnodespegue.com) · [💼 Portfolio](#projects-portfolio)
 
-### 2. Services Section
-- 6 comprehensive service offerings:
-  - Frontend Web Development (React, Next.js, TypeScript)
-  - Backend Development (Node.js, Databases, APIs)
-  - Mobile Applications (React Native)
-  - UI/UX Design
-  - Performance Optimization
-  - Maintenance & Support
-- Feature lists for each service
-- Hover effects and interactive cards
+</div>
 
-### 3. Projects Portfolio
-- 6 showcase projects with:
-  - Project images (using Next.js Image optimization)
-  - Descriptions and tech stack tags
-  - Live demo and GitHub links
-  - Smooth hover animations
+---
 
-### 4. About Section
-- Personal introduction and value proposition
-- Skills and technologies list
-- Key highlights (Quality, Timeliness, Communication, Results)
-- Statistics card
+## 📖 Acerca del Proyecto
 
-### 5. Contact Section
-- Functional contact form with Server Actions
-- Form validation
-- Contact information cards (Email, Phone, Location)
-- Success/error message handling
+Sitio web profesional de agencia freelance especializada en desarrollo web y programación. Construido con las últimas tecnologías para ofrecer una experiencia de usuario excepcional, diseño responsive y optimización SEO de primer nivel.
 
-### 6. Header Navigation
-- Fixed header with scroll effects
-- Smooth scroll to sections
-- Mobile-responsive menu
-- Active state indicators
+## ✨ Características Principales
 
-### 7. Footer
-- Company information
-- Quick links
-- Social media links
-- Contact details
+- ⚡ **Stack Tecnológico Moderno**: Next.js 15.5.4 con App Router, React 19 y TypeScript
+- 📱 **Diseño Responsive**: Experiencia perfecta en móviles, tablets y escritorio
+- 🎨 **UI Profesional**: Componentes shadcn/ui con diseño limpio y moderno
+- 🔍 **Optimizado SEO**: Metadata profesional, sitemap optimizado y HTML semántico
+- ✨ **Animaciones Fluidas**: Transiciones suaves y efectos hover atractivos
+- 📧 **Formulario de Contacto**: Sistema funcional con Next.js Server Actions
+- 🌐 **Multilenguaje**: Contenido en español para clientes hispanohablantes
+- 🚀 **Alto Rendimiento**: Lighthouse Score 90+ y Core Web Vitals optimizados
 
-## Tech Stack
+## 📐 Secciones del Sitio
 
-### Core
-- **Next.js 15.5.4**: React framework with App Router
-- **React 19**: UI library
-- **TypeScript**: Type-safe development
-- **Tailwind CSS v4**: Utility-first CSS framework
+<table>
+<tr>
+<td width="50%">
 
-### UI Components
-- **shadcn/ui**: Pre-built accessible components
-- **Radix UI**: Headless UI primitives
-- **Lucide React**: Icon library
+### 🎯 Hero Section
+- Hero atractivo con fondo animado
+- Botones call-to-action estratégicos
+- Estadísticas clave (50+ proyectos, 100% satisfacción)
+- Badge profesional y tagline
 
-### Development Tools
-- **ESLint**: Code linting
-- **PostCSS**: CSS processing
+### 💼 Servicios
+- 6 servicios especializados:
+  - Desarrollo Frontend (React, Next.js, TypeScript)
+  - Desarrollo Backend (Node.js, Databases, APIs)
+  - Aplicaciones Móviles (React Native)
+  - Diseño UI/UX
+  - Optimización de Rendimiento
+  - Mantenimiento y Soporte
+- Cards interactivas con efectos hover
 
-## Project Structure
+### 🚀 Portfolio de Proyectos
+- 6 proyectos destacados con:
+  - Imágenes optimizadas (Next.js Image)
+  - Descripciones y tags de tecnologías
+  - Enlaces a demo en vivo y GitHub
+  - Animaciones suaves al hover
+
+</td>
+<td width="50%">
+
+### 👨‍💻 Sobre Mí
+- Introducción personal y propuesta de valor
+- Lista de habilidades y tecnologías
+- Highlights clave (Calidad, Puntualidad, Comunicación, Resultados)
+- Card de estadísticas
+
+### 📬 Contacto
+- Formulario funcional con Server Actions
+- Validación de campos
+- Cards de información de contacto (Email, Teléfono, Ubicación)
+- Manejo de mensajes de éxito/error
+
+### 🧭 Navegación y Footer
+- Header fijo con efectos de scroll
+- Navegación suave entre secciones
+- Menú responsive para móviles
+- Footer con información, enlaces y redes sociales
+
+</td>
+</tr>
+</table>
+
+## 🛠️ Stack Tecnológico
+
+<div align="center">
+
+| Categoría | Tecnologías |
+|-----------|------------|
+| **⚡ Core** | Next.js 15.5.4 • React 19 • TypeScript 5.0 |
+| **🎨 Estilos** | Tailwind CSS v4 • PostCSS • CSS Variables |
+| **🧩 Componentes** | shadcn/ui • Radix UI • Lucide React Icons |
+| **🔧 Herramientas** | ESLint • TypeScript Compiler • Git |
+| **📦 Deploy** | Vercel • GitHub Actions |
+
+</div>
+
+## 📂 Estructura del Proyecto
 
 ```
-freelance-agency/
-├── app/
-│   ├── actions.ts          # Server Actions for form submission
-│   ├── globals.css         # Global styles and CSS variables
-│   ├── layout.tsx          # Root layout with metadata
-│   └── page.tsx            # Main page (home)
-├── components/
-│   ├── ui/                 # shadcn/ui components
+tecnodespegue/
+├── 📁 app/
+│   ├── 📄 actions.ts          # Server Actions para formulario
+│   ├── 📄 globals.css         # Estilos globales y variables CSS
+│   ├── 📄 layout.tsx          # Layout raíz con metadata SEO
+│   ├── 📄 page.tsx            # Página principal (home)
+│   ├── 📄 sitemap.ts          # Sitemap optimizado para Google
+│   └── 📁 admin/              # Panel de administración
+│
+├── 📁 components/
+│   ├── 📁 ui/                 # Componentes shadcn/ui
 │   │   ├── button.tsx
 │   │   ├── card.tsx
 │   │   ├── input.tsx
 │   │   ├── textarea.tsx
 │   │   └── label.tsx
-│   ├── Header.tsx          # Navigation header
-│   ├── Footer.tsx          # Site footer
-│   ├── Hero.tsx            # Hero section
-│   ├── Services.tsx        # Services showcase
-│   ├── Projects.tsx        # Portfolio projects
-│   ├── About.tsx           # About section
-│   └── Contact.tsx         # Contact form
-├── lib/
-│   └── utils.ts            # Utility functions
-├── next.config.ts          # Next.js configuration
-├── tailwind.config.ts      # Tailwind configuration
-├── components.json         # shadcn/ui configuration
-└── package.json            # Dependencies
-
+│   ├── Header.tsx            # Navegación principal
+│   ├── Footer.tsx            # Footer del sitio
+│   ├── Hero.tsx              # Sección hero
+│   ├── Services.tsx          # Showcase de servicios
+│   ├── Projects.tsx          # Portfolio de proyectos
+│   ├── About.tsx             # Sección sobre mí
+│   └── Contact.tsx           # Formulario de contacto
+│
+├── 📁 lib/
+│   └── utils.ts              # Funciones utilitarias
+│
+├── 📁 public/
+│   └── robots.txt            # Configuración de robots
+│
+├── ⚙️ next.config.ts          # Configuración Next.js
+├── ⚙️ tailwind.config.ts      # Configuración Tailwind
+├── ⚙️ components.json         # Configuración shadcn/ui
+└── 📦 package.json            # Dependencias del proyecto
 ```
 
-## Getting Started
+## 🚀 Instalación y Configuración
 
-### Prerequisites
-- Node.js 18.17 or later
-- npm, yarn, or pnpm
+### Prerequisitos
 
-### Installation
+Asegúrate de tener instalado:
+- **Node.js** 18.17 o superior
+- **npm**, **yarn** o **pnpm**
 
-1. Navigate to the project directory:
+### Instalación Rápida
+
 ```bash
+# 1️⃣ Clonar el repositorio
+git clone https://github.com/Rene-Kuhm/freelance-agency.git
+
+# 2️⃣ Navegar al directorio
 cd freelance-agency
-```
 
-2. Install dependencies:
-```bash
+# 3️⃣ Instalar dependencias
 npm install
-```
 
-3. Run the development server:
-```bash
+# 4️⃣ Iniciar servidor de desarrollo
 npm run dev
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser
+Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver el resultado.
 
-### Build for Production
+### 🏗️ Compilación para Producción
 
 ```bash
+# Generar build optimizado
 npm run build
-```
 
-### Start Production Server
-
-```bash
+# Iniciar servidor de producción
 npm start
 ```
 
-## Customization
+## 🎨 Personalización
 
-### Colors and Theming
-Edit `app/globals.css` to customize the color scheme. The project uses CSS variables with oklch color space for better color consistency.
+### Colores y Temas
 
-### Content
-- **Company Name**: Tecnodespegue
-- **Contact Info**: Update email, phone, and location in `components/Contact.tsx` and `components/Footer.tsx`
-- **Services**: Modify the services array in `components/Services.tsx`
-- **Projects**: Update the projects array in `components/Projects.tsx` with your actual projects
-- **About**: Edit the content in `components/About.tsx`
+Edita `app/globals.css` para personalizar el esquema de colores. El proyecto usa variables CSS con espacio de color OKLCH para mejor consistencia.
 
-### Metadata (SEO)
-Update SEO metadata in `app/layout.tsx`:
+### Contenido
+
+| Componente | Archivo | Qué modificar |
+|-----------|---------|---------------|
+| **Nombre de la empresa** | `components/Footer.tsx`, `components/Header.tsx` | Tecnodespegue |
+| **Información de contacto** | `components/Contact.tsx`, `components/Footer.tsx` | Email, teléfono, ubicación |
+| **Servicios** | `components/Services.tsx` | Array de servicios |
+| **Proyectos** | `components/Projects.tsx` | Array de proyectos con tus trabajos |
+| **Sobre mí** | `components/About.tsx` | Descripción personal y habilidades |
+
+### Metadata SEO
+
+Actualiza el metadata en `app/layout.tsx`:
+
 ```typescript
 export const metadata: Metadata = {
-  title: "Your Title",
-  description: "Your Description",
-  keywords: ["your", "keywords"],
+  title: "Tu Título",
+  description: "Tu Descripción",
+  keywords: ["tus", "palabras", "clave"],
   // ...
 };
 ```
 
-### Contact Form
-The contact form uses Server Actions. To integrate with an email service:
-1. Open `app/actions.ts`
-2. Add your email service integration (e.g., Resend, SendGrid, Nodemailer)
-3. Replace the console.log with actual email sending logic
+### Formulario de Contacto
 
-## Deployment
+El formulario usa Server Actions. Para integrar un servicio de email:
 
-### Vercel (Recommended)
-1. Push your code to GitHub
-2. Import the project in Vercel
-3. Deploy automatically
+1. Abre `app/actions.ts`
+2. Integra tu servicio preferido (Resend, SendGrid, Nodemailer)
+3. Reemplaza el `console.log` con la lógica de envío real
 
-### Other Platforms
-The project can be deployed to any platform that supports Next.js:
-- Netlify
-- AWS Amplify
-- DigitalOcean App Platform
-- Railway
-- Render
+## 🌐 Deployment
 
-## Performance
+### Vercel (Recomendado)
 
-- **Lighthouse Score**: Optimized for 90+ scores
-- **Core Web Vitals**: Excellent LCP, FID, and CLS
-- **Image Optimization**: Automatic optimization via Next.js Image
-- **Code Splitting**: Automatic route-based code splitting
-- **Static Generation**: Pre-rendered at build time for fast loading
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Rene-Kuhm/freelance-agency)
 
-## Browser Support
+```bash
+# 1️⃣ Push a GitHub
+git push origin master
 
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-- Mobile browsers (iOS Safari, Chrome Mobile)
+# 2️⃣ Importar proyecto en Vercel
+# 3️⃣ Deploy automático ✨
+```
 
-## License
+### Otras Plataformas
 
-This project is open source and available under the MIT License.
+El proyecto es compatible con cualquier plataforma que soporte Next.js:
 
-## Support
+| Plataforma | Comando | Documentación |
+|-----------|---------|---------------|
+| **Netlify** | `netlify deploy` | [Docs](https://docs.netlify.com/) |
+| **AWS Amplify** | `amplify publish` | [Docs](https://docs.amplify.aws/) |
+| **Railway** | `railway up` | [Docs](https://docs.railway.app/) |
+| **Render** | Auto deploy | [Docs](https://render.com/docs) |
 
-For questions or support, contact: contacto@tecnodespegue.com
+## ⚡ Performance
+
+<div align="center">
+
+| Métrica | Resultado | Estado |
+|---------|-----------|--------|
+| **Lighthouse Score** | 90+ | ✅ Optimizado |
+| **Core Web Vitals** | Excelente LCP, FID, CLS | ✅ Cumple |
+| **Optimización de Imágenes** | Next.js Image | ✅ Automático |
+| **Code Splitting** | Route-based | ✅ Automático |
+| **Generación Estática** | Build time | ✅ Pre-renderizado |
+
+</div>
+
+## 🌍 Compatibilidad de Navegadores
+
+| Navegador | Versión Mínima | Estado |
+|-----------|----------------|--------|
+| Chrome | Última | ✅ |
+| Firefox | Última | ✅ |
+| Safari | Última | ✅ |
+| Edge | Última | ✅ |
+| Navegadores móviles | iOS Safari, Chrome Mobile | ✅ |
+
+## 📄 Licencia
+
+Este proyecto es código abierto y está disponible bajo la [Licencia MIT](LICENSE).
+
+## 📞 Soporte y Contacto
+
+¿Preguntas o necesitas ayuda?
+
+- 📧 Email: [contacto@tecnodespegue.com](mailto:contacto@tecnodespegue.com)
+- 🌐 Web: [tecnodespegue.com](https://tecnodespegue.com)
+- 💼 GitHub: [@Rene-Kuhm](https://github.com/Rene-Kuhm)
 
 ---
 
-Built with ❤️ by Tecnodespegue using Next.js, TypeScript, and Tailwind CSS
+<div align="center">
+
+### Hecho con ❤️ por [Tecnodespegue](https://tecnodespegue.com)
+
+**Next.js** • **TypeScript** • **Tailwind CSS** • **React**
+
+⭐ Si te gusta este proyecto, ¡dale una estrella en GitHub!
+
+</div>
