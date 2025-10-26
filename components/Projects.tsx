@@ -56,14 +56,14 @@ export default function Projects() {
       status: "En Desarrollo",
     },
     {
-      title: "Dashboard Analytics",
+      title: "Acuamarina Cerámica",
       description:
-        "Dashboard interactivo para visualización de datos en tiempo real con gráficos y métricas personalizables.",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
-      tags: ["React", "D3.js", "Node.js", "MongoDB"],
+        "Sitio web profesional para empresa de cerámica. Diseño elegante y moderno con catálogo de productos y sistema de contacto.",
+      image: "https://images.unsplash.com/photo-1556911073-a517e752729c?w=800&q=80",
+      tags: ["Next.js", "TypeScript", "Tailwind CSS", "React"],
       liveUrl: "",
-      githubUrl: "",
-      status: "Planificación",
+      githubUrl: "https://github.com/Rene-Kuhm/acuamarina-ceramica.git",
+      status: "Completado",
     },
   ];
 
