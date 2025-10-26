@@ -21,8 +21,8 @@ export default function Contact() {
     {
       icon: Mail,
       title: "Email",
-      value: "renekuhm2@gmail.com",
-      href: "mailto:renekuhm2@gmail.com",
+      value: "contacto@tecnodespegue.com",
+      href: "mailto:contacto@tecnodespegue.com",
     },
     {
       icon: Phone,

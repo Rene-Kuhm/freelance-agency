@@ -17,7 +17,7 @@ export default function Footer() {
     },
     {
       icon: Mail,
-      href: "mailto:renekuhm2@gmail.com",
+      href: "mailto:contacto@tecnodespegue.com",
       label: "Email",
     },
   ];
@@ -86,10 +86,10 @@ export default function Footer() {
             <ul className="space-y-2 text-muted-foreground">
               <li>
                 <a
-                  href="mailto:renekuhm2@gmail.com"
+                  href="mailto:contacto@tecnodespegue.com"
                   className="hover:text-primary transition-colors"
                 >
-                  renekuhm2@gmail.com
+                  contacto@tecnodespegue.com
                 </a>
               </li>
               <li>

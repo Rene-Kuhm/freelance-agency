@@ -289,7 +289,7 @@ npm start
 ## 10. Soporte
 
 Para problemas o preguntas:
-- Email: renekuhm2@gmail.com
+- Email: contacto@tecnodespegue.com
 - GitHub Issues: [tu-repo]
 
 ---
