@@ -24,6 +24,14 @@ export const metadata: Metadata = {
     template: "%s | Tecnodespegue"
   },
   description: "⭐ Agencia freelance #1 en desarrollo web y programación. Creamos aplicaciones web modernas, software a medida y soluciones digitales que impulsan tu negocio. React, Next.js, Node.js. Presupuesto gratis.",
+  icons: {
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/icon.svg', type: 'image/svg+xml' }
+    ],
+    apple: '/apple-touch-icon.png',
+    shortcut: '/favicon.ico',
+  },
   keywords: [
     "desarrollo web",
     "desarrollo web profesional",
