@@ -1,6 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // Remove trailing slashes for consistent URLs
+  trailingSlash: false,
+  // Ensure clean URLs
+  skipTrailingSlashRedirect: false,
   images: {
     remotePatterns: [
       {
@@ -28,6 +32,19 @@ const nextConfig: NextConfig = {
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production',
   },
+  // Redirects for canonical URLs
+  redirects: async () => [
+    {
+      source: '/index',
+      destination: '/',
+      permanent: true,
+    },
+    {
+      source: '/home',
+      destination: '/',
+      permanent: true,
+    },
+  ],
   // Security headers
   headers: async () => [
     {

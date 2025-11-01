@@ -6,6 +6,9 @@ Allow: /
 Disallow: /api/
 Disallow: /_next/
 Disallow: /admin/
+Disallow: /admin
+Disallow: /index
+Disallow: /home
 
 # Sitemaps
 Sitemap: https://tecnodespegue.com/sitemap.xml
